@@ -1,2 +1,10 @@
 .git
-dist
+.github
+.dev
+.idea
+.editorconfig
+.gitattributes
+.gitignore
+CHANGELOG.md
+README.md
+LICENSE
