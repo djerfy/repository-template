@@ -8,10 +8,13 @@ name: Build and publish (dev)
 on:
   push:
     branches:
-      - 'main'
-      - 'release/**'
-      - 'feature/**'
-      - 'bugfix/**'
+      - "main"
+      - "release/**"
+      - "feature/**"
+      - "bugfix/**"
+    paths-ignore:
+      - ".github/ISSUE_TEMPLATE/*.md"
+      - "*.md"
 
 env:
   REGISTRY_URL: ghcr.io
